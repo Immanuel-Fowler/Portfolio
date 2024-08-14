@@ -2,21 +2,21 @@ import streamlit as st
 
 def get_logo(name):
     if name == "Accenture North America - Data Analytics and Visualization":
-        return "images/accenture_logo_white.svg"
+        return "accenture_logo_white.svg"
     if name == "CBRE - Project Management":
-        return "images/CBRE_logo.png"
+        return "CBRE_logo.png"
     if name == "Google Analytics":
-        return "images/goole_logo.png"
+        return "goole_logo.png"
     if name == "Skyscanner Front-End Software Engineering":
-        return ("images/Skyscanner_logo.png")
+        return ("Skyscanner_logo.png")
     if name =="Dupont":
-        return("images/dupont_logo.png")
+        return("dupont_logo.png")
     if name =="Rocket Mortgage":
-        return("images/rocket_mortgage_logo.png")
+        return("rocket_mortgage_logo.png")
     if name == "Zeta Learning":
-        return("images/zetaLearning_logo.jpeg")
+        return("zetaLearning_logo.jpeg")
 
-    return ("images/goole_logo.png")
+    return ("goole_logo.png")
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
