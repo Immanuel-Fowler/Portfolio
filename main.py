@@ -50,7 +50,7 @@ with st.container():
             If this sounds interesting to you connect with me on LinkedIn and let's talk!
             """)
     with right_column:
-        st.image("images/website_pic.jpeg", width=300)
+        st.image("website_pic.jpeg", width=300)
 
 # ---- CURRENT CERTIFICATIONS SECTION ----
 
