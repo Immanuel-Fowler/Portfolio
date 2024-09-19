@@ -2,25 +2,29 @@ import streamlit as st
 
 def get_logo(name):
     if name == "Accenture North America - Data Analytics and Visualization":
-        return "accenture_logo_white.svg"
+        return "logo/accenture_logo_white.svg"
     if name == "CBRE - Project Management":
-        return "CBRE_logo.png"
+        return "logo/CBRE_logo.png"
     if name == "Google Analytics":
-        return "goole_logo.png"
+        return "logo/goole_logo.png"
     if name == "Skyscanner Front-End Software Engineering":
-        return ("Skyscanner_logo.png")
+        return "logo/Skyscanner_logo.png"
     if name =="Dupont":
-        return("dupont_logo.png")
+        return "logo/dupont_logo.png"
     if name =="Rocket Mortgage":
-        return("rocket_mortgage_logo.png")
+        return "logo/rocket_mortgage_logo.png"
     if name == "Zeta Learning":
-        return("zetaLearning_logo.jpeg")
+        return "logo/zetaLearning_logo.jpeg"
+    if name == "Streamlit Portfolio Website":
+        return "logo/Portfolio_pic.png"
+    if name == "Neural Network Builder":
+        return "logo/neural_network.png"
 
-    return ("goole_logo.png")
+    return ("logo/goole_logo.png")
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":robot:", layout="wide")
+st.set_page_config(page_title="Immanuel Fowler's Portfolio", page_icon=":rocket:", layout="wide")
 
 # ---- HEADER SECTION ----
 with st.container():
